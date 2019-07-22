@@ -1,0 +1,86 @@
+import UIKit
+
+var str = "Hello, playground"
+str
+
+//this is a string and can be used to hold: numbers, letters et c
+//a string has " "
+// you can change variables but you cannot change constants. if you do want to change constant you do not need to rewrite var because you donot need to redeclare it.
+var name = "mayrav"
+name
+name = "mayrav avigail"
+name
+
+//a "print" you can actually see and it can hold a sting with anything else
+print ("hello world")
+
+var age = "17"
+print (age)
+print("I am \(age).")
+print("I am \(name).")
+
+var first = "karlie"
+var last = "kloss"
+print("\(first)\(last)" )
+print("\(last)\(first)")
+print("\(first) \(last)")
+print ("\(last) \(first) \(last) \(first)")
+print ("i love \(first)")
+print("\(name) loves \(last)")
+
+//an integer is a whole number. (don't
+//floats and doubles can store decimals.
+//doubles are more accurate.
+
+var a = 12
+var b = 65
+var c = 31
+var d = 98
+print((a + b + c + d) / 4)
+// the right answer is 51.5 and swift could not do that because we were calculating integers.
+//to get a more exact number:
+var A = 12.0
+var B = 65.0
+var C = 31.0
+var D = 98.0
+print((A + B + C + D) / 4)
+//another solution is to make it into a double
+print(Double(a + b + c + d) / 4)
+
+//flow control: "if statements" are conditions
+//to do this we need "comparisson opperators": <, >, <=, >=, == (means equals), != (means does not equal)
+5 < 3
+12 > 7
+16 == 16
+16 != 16
+//cannot ut a quote around either of them because you can't compare a variable with a string
+var luckynum = 7
+
+var dogage = 12
+if dogage < 2 {
+    print("you are a puppy")
+}
+else if dogage > 12 {
+    print ("you are elderly")
+}
+else {
+    print ("you are awesome")
+}
+dogage = 1
+
+var favoritefood = "tadig"
+//or you can change your favorite food
+favoritefood = "apples"
+if favoritefood == "tadig" {
+    print("thats the best")
+}
+else if favoritefood == "apples" {
+    print("healthy")
+}
+else if favoritefood == "anything from the bach" {
+    print("daya can help you")
+}
+
+//How to save code:
+version control keeps track of the changes of code and different versions of code
+//git is the software tht helps us do that. you can do that from the terminal which is the finder for our code.
