@@ -82,5 +82,15 @@ else if favoritefood == "anything from the bach" {
 }
 
 //How to save code:
-version control keeps track of the changes of code and different versions of code
-//git is the software tht helps us do that. you can do that from the terminal which is the finder for our code.
+//version control keeps track of the changes of code and different versions of code
+//git is the software tht helps us do that. you can do that from the terminal which is the finder for our code. refer to the poster to remember how to save
+
+var gitHub = "rocks"
+if gitHub  == "rocks" {
+    print ("You did it!")
+}
+
+else {
+    print ("try again")
+}
+
