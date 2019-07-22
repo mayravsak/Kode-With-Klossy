@@ -47,7 +47,7 @@ print((A + B + C + D) / 4)
 //another solution is to make it into a double
 print(Double(a + b + c + d) / 4)
 
-//flow control: "if statements" are conditions
+//flow control: "if statements" are Conditionals
 //to do this we need "comparisson opperators": <, >, <=, >=, == (means equals), != (means does not equal)
 5 < 3
 12 > 7
@@ -94,3 +94,78 @@ else {
     print ("try again")
 }
 
+//functions:
+//(put the steps in a print in the squigly () )
+func walkDog() {
+    print("call dog")
+    print("get leash")
+    print("attach leash")
+    print("exit the house")
+    print("walk")
+}
+walkDog()
+//^ now you just have to write that to get it to print in the bottom instead of rewriting the whole thing
+
+func cereal() {
+    print("get clean cup")
+    print("get lactaid milk from shira and zoey")
+    print("get bowl of good cereal")
+    print("pour milk onto cereal")
+    print("eat fast before you spill")
+}
+cereal()
+
+//arguments gives a function special information
+func walkDog(numberofdogs : Int) {
+    print("There are \(numberofdogs) dogs in the house")
+}
+walkDog(numberofdogs : 4)
+//the Int can also be Double or String
+walkDog(numberofdogs : 6)
+
+//Arguments try two:
+//this is to tell the computer to get ready for a string:
+func hello(hellotrinity : String) {
+    //this is what it will actually write out when you are ready to use it:
+    print("heyy \(hellotrinity)!")
+}
+//this is whe you are ready to use the string and want to change the name:
+hello(hellotrinity : "daya")
+hello(hellotrinity : "klossy")
+
+//Return Value:
+//the idea is that they dont print but are just stored in the function. its confusing
+func myAge() -> Int {
+    return 17
+}
+print(myAge() + 10)
+
+func walkdog(numberofdogs : Int) -> Int {
+    let lengthofwalk = numberofdogs * 15
+    return lengthofwalk
+}
+//you have to use let instead of var^ because you don't change the value and you havent declatred the variable above. To fix, you could either change it to let or declare above
+
+//Collections:
+//it is a data type that stores multiple things. There ae two types: arrays (an ordered collection that stores multiple values of the same type. separated by commas) and dictionaries
+//Arrays:
+var arrayOfStrings = [String] ()
+var arrayOfIntegers = [Int] ()
+var picturesOfRoni = ["Roni", "Gabri", "Batsheva", "Mayrav", "Roni's Mom"]
+//now each one has a number. the firest person has an index of 0, the next person has an index of 1 the next person has an index of 2
+picturesOfRoni[2]
+picturesOfRoni[4]
+//to change a name:
+picturesOfRoni[3] = "Josh Kushner"
+print(picturesOfRoni)
+
+var theCave = ["mayrav", "leora", "daya", "shir", "sami", "adielle"]
+//to access someone:
+theCave[1]
+//to add someone:
+theCave.append("literally no one else")
+//to remove:
+theCave.remove(at : 6)
+//to change:
+theCave[4] = "smiiiii"
+print(theCave)
