@@ -112,3 +112,7 @@ for _ in 2..<animals.count {
 for _ in 2..<animals.count {
     print("I love \(animals[4])")
 }
+
+//007: Classes and Objects:
+// class is what is going to create or stamp out the object. the class is like the dna or blueprint. the object is the protein that the dna makes
+
