@@ -10,6 +10,8 @@ import Foundation
 
 print("Hello, World!")
 
-var dogA = dog (dogName: "puppy", dogAge: 7, dogBreed: "poodle")
+var dogA = dog (dogName: "puppy", dogAge: 7)
+
 
 dogA.writeCode()
+

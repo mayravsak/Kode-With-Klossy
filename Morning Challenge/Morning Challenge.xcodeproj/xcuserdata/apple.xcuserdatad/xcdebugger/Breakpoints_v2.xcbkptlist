@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Morning Challenge/Dog.swift"
-            timestampString = "585667467.263561"
+            timestampString = "585668029.966753"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "dog"
             landmarkType = "3">
          </BreakpointContent>

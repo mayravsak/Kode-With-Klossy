@@ -11,7 +11,7 @@ import Foundation
 class dog {
     var name = " "
     var age = 0
-    var breed = " "
+    var breed = ["pug", "poodle", "bulldog", "teacup dog"]
     
     init (dogName: String, dogAge: Int, dogBreed: String) {
         name = dogName
@@ -21,5 +21,8 @@ class dog {
     
     func writeCode() {
         print("I'm \(name), woof woof!")
+    }
+    func favoriteBreed() {
+        print("My favorite breed of dog is a \(breed)")
     }
 }
