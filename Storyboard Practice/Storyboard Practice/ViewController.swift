@@ -24,13 +24,14 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func showAlert(_ sender: Any) {
-        let alertController = UIAlertController(title: "iOScreator", message:
-            "Hello, world!", preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
-        
-        self.present(alertController, animated: true, completion: nil)
-    }
+    // was nto able to make alert but this was my try:
+//    @IBAction func showAlert(_ sender: Any) {
+//        let alertController = UIAlertController(title: "iOScreator", message:
+//            "Hello, world!", preferredStyle: .alert)
+//        alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+//
+//        self.present(alertController, animated: true, completion: nil)
+//    }
     
 }
 
